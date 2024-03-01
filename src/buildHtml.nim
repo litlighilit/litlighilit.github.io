@@ -7,11 +7,13 @@ const
   Name = "litlighilit"
   Title = fmt"{Name}'s home"
   SelfIntrFn = "selfIntr.md"
-  SelfIntr = slurpMd: currentSourcePath().parentDir / SelfIntrFn
+
+const SelfIntr = slurpMd(currentSourcePath().parentDir / SelfIntrFn)
 let
   Head = head(
     meta(charset="utf-8"),
-    title Title
+    title Title,
+    ScriptAdded
   )
   Body = body(
     p(
