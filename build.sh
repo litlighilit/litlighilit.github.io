@@ -1,0 +1,1 @@
+nim c --hints:off -r src/genIndex.nim
