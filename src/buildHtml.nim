@@ -2,13 +2,18 @@
 import std/htmlgen
 import std/strformat
 import std/os
-import ./handleMd
+
 const
   Name = "litlighilit"
   Title = fmt"{Name}'s home"
   SelfIntrFn = "selfIntr.md"
-
-const SelfIntr = slurpMd(currentSourcePath().parentDir / SelfIntrFn)
+const SrcDir = currentSourcePath().parentDir
+const
+  ScriptAdded* = script(
+    `type`="module", 
+    slurp(SrcDir/"md-block.js"))
+  SelfIntr =  fmt"<md-block>{slurp(SrcDir / SelfIntrFn)}</md-block>"
+  # using https://md-block.verou.me/md-blocks.js will make render too slow
 let
   Head = head(
     meta(charset="utf-8"),
