@@ -18,6 +18,7 @@ let
   Head = head(
     meta(charset="utf-8"),
     title Title,
+    link(rel="shortcut icon", href="lit.ico"),
     ScriptAdded
   )
   Body = body(
