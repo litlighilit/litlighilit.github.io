@@ -2,7 +2,7 @@
 While had explored quite a few langs, like
 C/C++, Rust, Haskell, Smalltalk, etc,
 
-finally give a favor to
+finally favor
 [Nim][nim-web] 
 and [Python][py-web].
 
