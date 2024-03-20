@@ -24,7 +24,7 @@ My involved fields includes:
 
 Glad to have a technical communication with You!
 
-For example, I've obtained a habit of refering to official language spec reference,
+For example, I've obtained a habit of referring to official language spec reference,
 
 when met something unclear,
 
