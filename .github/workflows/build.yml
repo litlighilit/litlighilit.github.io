@@ -10,6 +10,6 @@ jobs:
     - uses: jiro4989/setup-nim-action@v1
       with:
         nim-version: ${{ env.nim-version }}
-    - name: Test C backend
-      run: sh build.sh > index.html
+    - name: build
+      run: sh build.sh
 
