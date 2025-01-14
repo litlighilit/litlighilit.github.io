@@ -6,7 +6,7 @@ import std/os
 const
   Name = "litlighilit"
   Title = fmt"{Name}'s home"
-  SelfIntrFn = "selfIntr.md"
+  SelfIntrFn = "index.md"
 const SrcDir = currentSourcePath().parentDir
 const
   ScriptAdded* = script(
