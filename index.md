@@ -48,4 +48,4 @@ while it has to be claimed that:
 
 
 ## How to Reach Me
-email to [lit@litlighilit.top](mailto://lit@lighilit.top)
+email to [lit@lighilit.top](mailto://lit@lighilit.top)
